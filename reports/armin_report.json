@@ -1,0 +1,7 @@
+{
+    "sender": "Armin",
+    "company": "Bournemouth University",
+    "category": "support",
+    "response": "Dear Armin,\n\nThank you for reaching out. I apologize for the inconvenience you are experiencing with the password reset link. Please try the following steps to reset your password:\n\n1. Visit the login page and click on the \"Forgot Password\" option.\n2. Enter the email address associated with your account, and we will send you a new password reset link.\n3. If you continue to have trouble, please let me know, and I'll be happy to assist you further.\n\nWe take the security of our users' accounts very seriously, so please don't hesitate to contact us if you have any other questions or concerns.\n\nSincerely,\n[AI Assistant]",
+    "quality_report": "PASS\n\nThe email response meets all the criteria:\n- Professional and polite tone\n- Directly addresses the original email content\n- Clear and easy to understand\n- Free of grammar or spelling errors"
+}
