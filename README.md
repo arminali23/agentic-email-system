@@ -32,6 +32,12 @@ cd agentic-email-system
 When running the script for the first time, a browser window will open to authenticate with Gmail.
 
 - run the system with python main.py in terminal
+  
+
+# GÜNCELLENMİŞ DETAYLI INSTALLATION BILGISI
+
+- Projeyi kurmak için öncelikle git clone <repo-link> komutuyla repoyu klonlayın ve cd <repo-klasörü> ile proje dizinine girin. Python 3.10+ kurulu olduğundan emin olun ve tercihen python -m venv venv ile sanal ortam oluşturup aktif edin. Ardından pip install -r requirements.txt komutuyla gerekli bağımlılıkları yükleyin. Proje kök dizininde .env dosyası oluşturun ve içine CLAUDE_API_KEY=your_key_here (CLAUDE'dan aldiginiz api key)satırını ekleyin. Gmail API’yi etkinleştirmek için Google Cloud Console’a gidin, Gmail API’yi aktif edin, OAuth 2.0 Client ID oluşturun ve credentials.json dosyasını indirerek utils/ klasörüne koyun. Tüm bu adımlar tamamlandıktan sonra python main.py komutuyla sistemi başlatabilirsiniz; ilk çalıştırmada tarayıcıdan Gmail hesabınıza giriş yaparak yetkilendirme yapmanız istenir. Sistem gelen son e-postaları alır, Claude ile sınıflandırır, gerekiyorsa yanıt oluşturur, kalite kontrolü yapar ve sonucu reports/ klasörüne JSON dosyası olarak kaydeder.
+
 
 # EXAMPLE USAGE
 
